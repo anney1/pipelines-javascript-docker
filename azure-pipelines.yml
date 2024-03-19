@@ -12,5 +12,5 @@
    displayName: Build an image
    inputs:
      repository: $(imageName)
-     command: build
+     command: buildAndPush
      Dockerfile: app/Dockerfile
